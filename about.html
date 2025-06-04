@@ -4,59 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PROFILE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
             color: #333;
         }
 
         .container {
-            max-width: 800px;
-            margin: 50px auto;
+            max-width: 850px;
+            margin: 60px auto;
             background-color: #fff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            padding: 50px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
             color: #2c3e50;
+            margin-bottom: 30px;
         }
 
         .profile-pic {
-            display: block;
-            margin: 20px auto;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 160px;
+            height: 160px;
             object-fit: cover;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 50%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 25px;
         }
 
         p {
             font-size: 18px;
-            line-height: 1.6;
+            line-height: 1.7;
             margin-top: 20px;
+            text-align: justify;
         }
 
         .social {
-            text-align: center;
-            margin-top: 30px;
+            margin-top: 40px;
+        }
+
+        .social p {
+            font-weight: bold;
+            margin-bottom: 15px;
         }
 
         .social a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #2c3e50;
             text-decoration: none;
-            color: #007bff;
-            margin: 0 10px;
             font-size: 20px;
+            transition: transform 0.2s, color 0.3s;
+        }
+
+        .social a i {
+            margin-right: 8px;
         }
 
         .social a:hover {
-            text-decoration: underline;
+            color: #007bff;
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .social a {
+                display: block;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
@@ -64,21 +88,22 @@
     <div class="container">
         <h1>LET ME INTRODUCE YOU</h1>
         <img src="ikhwan.jpeg" alt="Profile Picture" class="profile-pic">
+        
         <p>
-    Halo! Saya Ikhwan Ashshafa, seorang pengembang web yang antusias dengan pengalaman dalam membangun tampilan web yang bersih, responsif, dan user-friendly. Saya percaya bahwa desain bukan hanya soal estetika, tapi juga bagaimana pengalaman pengguna dibentuk dari awal hingga akhir.
-   </p>
-   <p>
-    Saya memiliki minat besar dalam pengembangan front-end, terutama menggunakan HTML, CSS, dan JavaScript. Saya juga senang belajar hal baru, mengikuti perkembangan teknologi terbaru, dan selalu berusaha memberikan solusi yang efisien serta elegan dalam setiap proyek yang saya kerjakan.
-   </p>
-   <p>
-    Di luar dunia coding, saya menikmati waktu untuk membaca, jalan-jalan di alam, dan sesekali menulis blog seputar teknologi. Bagi saya, keseimbangan antara pekerjaan dan kehidupan pribadi adalah kunci untuk tetap produktif dan kreatif.
-   </p>
+            Halo! Saya Ikhwan Ashshafa, seorang pengembang web yang antusias dengan pengalaman dalam membangun tampilan web yang bersih, responsif, dan user-friendly. Saya percaya bahwa desain bukan hanya soal estetika, tapi juga bagaimana pengalaman pengguna dibentuk dari awal hingga akhir.
+        </p>
+        <p>
+            Saya memiliki minat besar dalam pengembangan front-end, terutama menggunakan HTML, CSS, dan JavaScript. Saya juga senang belajar hal baru, mengikuti perkembangan teknologi terbaru, dan selalu berusaha memberikan solusi yang efisien serta elegan dalam setiap proyek yang saya kerjakan.
+        </p>
+        <p>
+            Di luar dunia coding, saya menikmati waktu untuk membaca, jalan-jalan di alam, dan sesekali menulis blog seputar teknologi. Bagi saya, keseimbangan antara pekerjaan dan kehidupan pribadi adalah kunci untuk tetap produktif dan kreatif.
+        </p>
 
         <div class="social">
             <p>Connect with me:</p>
-            <a href="linkedin.html">LinkedIn</a>
-            <a href="github.html">GitHub</a>
-            <a href="twitter.html">Twitter</a>
+            <a href="linkedin.html"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="github.html"><i class="fab fa-github"></i>GitHub</a>
+            <a href="twitter.html"><i class="fab fa-twitter"></i>Twitter</a>
         </div>
     </div>
 </body>
