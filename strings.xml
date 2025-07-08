@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nama Aplikasi -->
+    <string name="app_name">Profil Pribadi App</string>
+
+    <!-- Data Putri -->
+    <string name="nama_putri">👩 Putri Mayang Sarasih</string>
+    <string name="aktivitas_putri_label">🗓 Aktivitas Harian:</string>
+    <string name="aktivitas_putri">🐱 Mengurus kucing&#10;🧹 Membersihkan rumah&#10;🎬 Menonton film&#10;📚 Menyusun tugas kuliah</string>
+
+    <!-- Data Yayah -->
+    <string name="nama_yayah">👩‍🦰 Yayah Marlina</string>
+    <string name="aktivitas_yayah_label">🗓 Aktivitas Harian:</string>
+    <string name="aktivitas_yayah">🏠 Mengurus rumah&#10;📖 Membaca buku&#10;💻 Mengikuti webinar&#10;🧑‍💼 Bekerja</string>
+
+    <!-- Data Ikhwan -->
+    <string name="nama_ikhwan">👨 Ikhwan Ashshafa</string>
+    <string name="aktivitas_ikhwan_label">🗓 Aktivitas Harian:</string>
+    <string name="aktivitas_ikhwan">💻 Ngoding&#10;📚 Belajar&#10;🧑‍💻 Bekerja&#10;👥 Bantu teman</string>
+</resources>

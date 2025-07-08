@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- ====== KARTU PENDIDIKAN PUTRI ====== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/education_card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📚 Putri Mayang Sarasih"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="8dp" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🧒 SD: SDN Buniayu 1"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎒 SMP: SMPN 1 Sukamulya"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏫 SMA: SMK Jaya Buana"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎓 Kuliah: Universitas Yatsi Madani"
+                style="@style/ProfilTextStyle" />
+        </LinearLayout>
+
+        <!-- ====== YAYAH ====== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/education_card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📚 Yayah Marlina"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="8dp" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🧒 SD: SDN Buniayu 1"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎒 SMP: SMPN 1 Sukamulya"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏫 SMA: SMK Jaya Buana"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎓 Kuliah: Universitas Yatsi Madani"
+                style="@style/ProfilTextStyle" />
+        </LinearLayout>
+
+        <!-- ====== IKHWAN ====== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/education_card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📚 Ikhwan Ashshafa"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="8dp" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🧒 SD: SDN Serang 3"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎒 SMP: SMPN 4 Cilegon"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏫 SMA: SMK Cilegon Maju"
+                style="@style/ProfilTextStyle" />
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎓 Kuliah: Universitas Yatsi Madani"
+                style="@style/ProfilTextStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

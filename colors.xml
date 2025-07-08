@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna Utama -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- Warna Sekunder -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Warna Latar dan Teks -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="light_gray">#F5F5F5</color>
+
+    <!-- Warna Latar Belakang Default -->
+    <color name="background_light">#F0F8FF</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Warna untuk Divider atau Border -->
+    <color name="divider">#CCCCCC</color>
+
+    <!-- Warna teks profil -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources>
